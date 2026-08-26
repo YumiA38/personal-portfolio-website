@@ -1,52 +1,26 @@
-# Personal Portfolio Website
+# Yumyugyul Adem — Software Engineering Portfolio
 
-A modern personal portfolio website for Yumyugyul Akif Adem, a Software Engineering student based in Málaga, Spain.
+A recruiter-focused personal portfolio for Yumyugyul Adem, a Software Engineering student based in Benalmádena, Spain. The site presents her current focus, selected technical projects, education, and direct GitHub/LinkedIn contact paths.
 
-## Live Demo
+## Live site
 
-After publishing with GitHub Pages, add the link here:
+The site is published with GitHub Pages:
 
-`https://YumiA38.github.io/personal-portfolio-website`
+`https://yumia38.github.io/personal-portfolio-website/`
 
-## Features
+## Highlights
 
-- Professional hero section
-- Typing animation with JavaScript
-- About, skills, projects, roadmap, and contact sections
-- Responsive design for mobile and desktop
-- GitHub and LinkedIn links
-- Project cards with View Code and Live Demo buttons
-- Copy email button
-- Automatic current year in footer
+- Clear positioning for Junior QA, IT Support, and software opportunities.
+- Direct links to the live Tier 1 Technical Support Lab, QA automation suite, and Notby Mobile project.
+- Responsive, accessible single-page layout with no external dependencies.
+- Honest, project-based presentation of technical skills and education.
 
-## Technologies Used
+## Run locally
 
-- HTML
-- CSS
-- JavaScript
-- Git
-- GitHub
+Open `index.html` in a browser, or serve the folder locally:
 
-## Project Structure
-
-```text
-personal-portfolio-website/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+```bash
+python3 -m http.server 8000
 ```
 
-## How to Run
-
-1. Download or clone this repository.
-2. Open `index.html` in a web browser.
-3. Edit the text, links, and projects as needed.
-
-## What I Learned
-
-- How to structure a professional portfolio website
-- How to use CSS Grid and responsive layout
-- How to add simple JavaScript interaction
-- How to prepare a project for GitHub
-- How to add project links for recruiters and employers
+Then open `http://localhost:8000`.
