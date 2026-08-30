@@ -21,43 +21,43 @@ A portfolio-ready **Junior Data Analyst** project demonstrating an end-to-end an
 - NumPy
 - Matplotlib
 - Jupyter Notebook
-- pytest
 - Git / GitHub
 
 ## Workflow
 
 **Raw CSV → Data quality checks → Cleaning → Feature engineering → EDA → KPI analysis → Business recommendations**
 
-## KPIs
+The project follows a reproducible structure rather than presenting only final charts. This is intentional because a strong junior analytics portfolio should show the complete path from raw data to interpretable findings. 
+
+## Key KPIs
 
 - Total completed revenue
 - Completed orders
 - Average order value (AOV)
 - Units sold
 - Repeat-customer rate
-- Cancellation/return rate
+- Return/cancellation rate
 - Revenue by category, region and channel
 - Monthly revenue trend
 
-## Run
+## Project Structure
 
-```bash
-python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# macOS/Linux
-source .venv/bin/activate
-
-pip install -r requirements.txt
-jupyter notebook notebooks/ecommerce_sales_analysis.ipynb
+```text
+junior-data-analyst-python-project/
+├── data/
+│   └── ecommerce_orders_raw.csv
+├── notebooks/
+│   └── ecommerce_sales_analysis.ipynb
+├── src/
+│   └── analysis_utils.py
+├── tests/
+│   └── test_analysis-utils.py
+├── requirements.txt
+└── README.md
 ```
 
-## Portfolio Talking Points
+## How to Run
 
-- Built a reproducible Python/Pandas workflow for cleaning and analysing transactional data.
-- Validated missing values, duplicate records, data types and business-rule consistency before analysis.
-- Created reusable KPI functions for revenue, AOV and repeat-customer rate.
-- Translated analysis into business recommendations rather than only reporting numbers.
-- Added automated tests for core analytical calculations.
-
-This is a portfolio/learning project. The data is synthetic and should not be described as real company data in applications.
+```bash
+python -m venv .venv#om \nSource or activate the environment as appropriate.\npip install -r requirements.txt\njupyter notebook notebooks/ecommerce_sales_analysis.ipynb
+```
