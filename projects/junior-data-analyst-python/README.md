@@ -1,63 +1,55 @@
 # E-commerce Sales & Customer Analysis — Python
 
-A portfolio-ready **Junior Data Analyst** project demonstrating an end-to-end analytics workflow with Python, Pandas, NumPy and Matplotlib.
+Portfolio-ready Junior Data Analyst project demonstrating an end-to-end analytics workflow with Python, Pandas, NumPy and Matplotlib.
 
-> **Data note:** The dataset in this repository is synthetic and was generated specifically for this portfolio project. It is intentionally seeded with a small number of duplicates and missing values so the data-cleaning and validation workflow can be demonstrated honestly.
+> **Data note:** The dataset is synthetic and created for this portfolio project. It intentionally contains a small number of data-quality issues so cleaning and validation can be demonstrated honestly.
 
 ## Business Questions
 
 1. How are sales and order volume changing over time?
-2. Which product categories and regions generate the most revenue?
+2. Which categories and regions generate the most revenue?
 3. Which sales channels perform best?
 4. What is the average order value (AOV)?
 5. What percentage of customers are repeat customers?
-6. How much revenue is affected by cancelled or returned orders?
+6. What share of orders are cancelled or returned?
 7. Are there data-quality issues that could affect reporting?
 
 ## Tools
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
-- Git / GitHub
+Python • Pandas • NumPy • Matplotlib • Jupyter • pytest • Git/GitHub
 
 ## Workflow
 
-**Raw CSV → Data quality checks → Cleaning → Feature engineering → EDA → KPI analysis → Business recommendations**
+**Raw CSV → Data quality checks → Cleaning → KPI analysis → EDA → Business recommendations**
 
-The project follows a reproducible structure rather than presenting only final charts. This is intentional because a strong junior analytics portfolio should show the complete path from raw data to interpretable findings. 
+## KPIs
 
-## Key KPIs
-
-- Total completed revenue
+- Completed revenue
 - Completed orders
-- Average order value (AOV)
 - Units sold
+- Average order value (AOV)
 - Repeat-customer rate
-- Return/cancellation rate
+- Cancellation and return rate
 - Revenue by category, region and channel
 - Monthly revenue trend
 
-## Project Structure
-
-```text
-junior-data-analyst-python-project/
-├── data/
-│   └── ecommerce_orders_raw.csv
-├── notebooks/
-│   └── ecommerce_sales_analysis.ipynb
-├── src/
-│   └── analysis_utils.py
-├── tests/
-│   └── test_analysis-utils.py
-├── requirements.txt
-└── README.md
-```
-
-## How to Run
+## Run
 
 ```bash
-python -m venv .venv#om \nSource or activate the environment as appropriate.\npip install -r requirements.txt\njupyter notebook notebooks/ecommerce_sales_analysis.ipynb
+python -m venv .venv
+pip install -r requirements.txt
+python src/analysis.py
+pytest -q
 ```
+
+The Jupyter notebook in `notebooks/` provides the step-by-step analysis workflow.
+
+## Portfolio Talking Points
+
+- Built a reproducible Python/Pandas workflow for transactional data.
+- Validated duplicates, missing values, data types and business-rule consistency before analysis.
+- Created reusable KPI functions for revenue, AOV and repeat-customer rate.
+- Used visual analysis to turn data into business-oriented findings.
+- Added automated tests for core analytical calculations.
+
+This is a portfolio/learning project; the data must not be presented as real company data.
