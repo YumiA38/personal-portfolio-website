@@ -1,7 +1,21 @@
 order_id,order_date,customer_id,region,channel,category,payment_method,quantity,unit_price,discount_pct,order_status,revenue_eur
 ORD100000,2025-02-18,10026,Madrid,Mobile App,Beauty,Card,1,34.06,0.0,Completed,34.06
-ORD100001,2026-02-27,10211,M√°lag,Website,Beauty,Card,1,47.35,0.05,Completed,44.99
-ORD100026,2025-08-08,10048,Alicante,Marketplace,Beauty,,1,55.61,0.0,Completed,55.61
-ORD100040,2025-04-01,10192,Madrid,Website,Electronics,PayPal,4,98.26,0.1,Completed,353.75
-ORD100041,2026-02-18,10044,M√°laga,Marketplace,Beauty,Card,1,46.83,0.1,Completed,42.15
-ORD100056,2025-10-26,10169,M√°laga,Web⁄]K[X›õ€öX‹Àÿ\ôãMŒKçåãåã€€\]YéÀåŒBì‘ëLçÀåçKLÀLåãLÕÀpË[YÿKŸXú⁄]K[X›õ€öX‹À^T[KLNåÕå€€\]YLNåÕì‘ëLŒKåçãLKLKLãpË[YÿKX\öŸ]XŸKôX]]K^T[KLãéMãåK€€\]YLåÃB
+ORD100001,2026-02-27,10211,M√°laga,Website,Beauty,Card,1,47.35,0.05,Completed,44.99
+ORD100002,2025-12-24,10205,Barcelona,Website,Electronics,Card,1,154.06,0.0,Completed,154.06
+ORD100003,2025-08-28,10117,M√°laga,Website,Sports,Bank Transfer,1,76.15,0.0,Completed,76.15
+ORD100004,2025-08-25,10058,Bilbao,Mobile App,Sports,PayPal,1,59.57,0.05,Completed,56.59
+ORD100005,2026-04-14,10021,M√°laga,Mobile App,Sports,Card,3,52.22,0.0,Completed,156.66
+ORD100006,2025-02-16,10004,M√°laga,Website,Electronics,Card,1,177.48,0.1,Completed,159.74
+ORD100007,2026-01-16,10217,Madrid,Website,Home,Card,1,69.06,0.1,Completed,62.15
+ORD100008,2025-04-21,10041,M√°laga,Website,Home,Card,1,81.27,0.05,Completed,77.2
+ORD100009,2025-02-21,10432,M√°laga,Marketplace,Electronics,PayPal,1,103.11,0.1,Completed,92.79
+ORD100010,2025-10-15,10111,Valencia,Website,Electronics,Card,1,127.92,0.1,Completed,115.12
+ORD100011,2026-06-17,10294,Madrid,Mobile App,Home,Apple Pay,2,97.4,0.15,Completed,165.57
+ORD100012,2026-02-06,10304,Valencia,Website,Sports,PayPal,1,54.67,0.0,Cancelled,54.67
+ORD100013,2026-02-20,10223,Alicante,Website,Electronics,PayPal,2,173.46,0.05,Completed,329.57
+ORD100014,2026-01-27,10398,Valencia,Mobile App,Sports,Apple Pay,1,38.32,0.1,Returned,34.49
+ORD100015,2026-03-06,10050,Valencia,Website,Beauty,Card,1,37.14,0.0,Completed,37.14
+ORD100016,2025-10-08,10106,Madrid,Website,Sports,PayPal,1,61.63,0.0,Completed,61.63
+ORD100017,2025-03-11,10114,M√°laga,Marketplace,Home,PayPal,2,114.44,0.0,Completed,228.88
+ORD100018,2026-04-04,10061,Madrid,Website,Beauty,Card,3,32.48,0.05,Completed,92.55
+ORD100019,2025-09-03,10133,Bilbao,Website,Beauty,Card,1,48.68,0.0,Completed,48.68
